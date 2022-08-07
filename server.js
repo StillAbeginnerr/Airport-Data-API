@@ -3,7 +3,7 @@ const app = express()
 const db = require('..//flyravel-backend/db.json');
 const port = process.env.PORT || 3000;
 
-app.get('/',(req, res) => {
+app.get('/hello',(req, res) => {
   res.send(db);
 })
 
