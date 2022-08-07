@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const db = require('..//flyravel-backend/db.json');
+const db = require('./db.json');
 const port = process.env.PORT || 3000;
 
 app.get('/hello',(req, res) => {
