@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/StillAbeginnerr/flyravel-backend/issues"
   },
-  "homepage": "https://github.com/StillAbeginnerr/flyravel-backend#readme"
+  "homepage": "https://github.com/StillAbeginnerr/flyravel-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
